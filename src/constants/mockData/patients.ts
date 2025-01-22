@@ -1,17 +1,17 @@
-export const mockPatients = [
+export const mockPatients = [  
   {
     id: "P123456",
-    name: "Rajesh Kumar",
-    photoUrl: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&fit=crop",
+    name: "Shridevi Rathore",
+    photoUrl: "https://images.unsplash.com/photo-1522643527310-7222a3f57bb1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     lastVisit: "2024-03-15",
     age: 45,
     bloodType: "B+",
     city: "Mumbai"
-  },
+  },  
   {
     id: "P123457",
     name: "Priya Sharma",
-    photoUrl: "https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=400&h=400&fit=crop",
+    photoUrl: "https://images.unsplash.com/photo-1547212371-eb5e6a4b590c?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     lastVisit: "2024-03-14",
     age: 32,
     bloodType: "O+",

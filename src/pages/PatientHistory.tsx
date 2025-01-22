@@ -35,13 +35,14 @@ export function PatientHistory() {
         
         <PatientProfile profile={profile} />
         
+        <DoctorVoiceNoteEntry />
+        
+        <OverallSummary summary={summary} />
+
         <div className="flex justify-end mb-8">
           <DocumentUpload />
         </div>
 
-        <DoctorVoiceNoteEntry />
-        
-        <OverallSummary summary={summary} />
 
         <div className="grid md:grid-cols-2 gap-8">
           <div>

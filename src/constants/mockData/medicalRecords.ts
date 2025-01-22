@@ -11,9 +11,90 @@ export const patientRecords: Record<string, MedicalDocument[]> = {
       content: "Detailed blood sugar analysis shows improvement from previous readings. Fasting glucose: 130 mg/dL"
     },
     {
+      id: "LAB001",
+      type: "lab",
+      title: "Kidney Function Test",
+      date: "2024-05-22",
+      summary: "Creatinine and BUN levels normal, eGFR stable",
+      content: "Detailed Kidney Function Test"
+    },
+    {
+      id: "LAB001",
+      type: "lab",
+      title: "Lipid Panel",
+      date: "2024-04-09",
+      summary: "Cholesterol levels within target range, triglycerides slightly elevated",
+      content: "Lipid Panel Report Body"
+    },
+    {
+      id: "LAB001",
+      type: "lab",
+      title: "Lipid Panel",
+      date: "2024-01-02",
+      summary: "Cholesterol levels within target range, triglycerides slightly elevated",
+      content: "Lipid Panel Report Body"
+    },
+    {
+      id: "LAB001",
+      type: "lab",
+      title: "Lipid Panel",
+      date: "2024-01-01",
+      summary: "Cholesterol levels within target range, triglycerides slightly elevated",
+      content: "Lipid Panel Report Body"
+    },
+    {
+      id: "DIAG001",
+      type: "scan",
+      title: "ECG",
+      date: "2024-09-18",
+      summary: "Normal sinus rhythm, no ST-T wave changes",
+      content: "Patient showing good compliance with medication and diet recommendations. Regular exercise routine maintained."
+    },
+    {
+      id: "DIAG001",
+      type: "scan",
+      title: "Chest X-Ray",
+      date: "2024-10-11",
+      summary: "Clear lung fields, normal heart size, no acute findings",
+      content: "Patient showing good compliance with medication and diet recommendations. Regular exercise routine maintained."
+    },
+    {
+      id: "DIAG001",
+      type: "scan",
+      title: "Abdominal Ultrasound",
+      date: "2024-10-27",
+      summary: "Normal liver texture, no gallstones, kidneys appear normal",
+      content: "Patient showing good compliance with medication and diet recommendations. Regular exercise routine maintained."
+    },
+    {
       id: "DIAG001",
       type: "diagnosis",
-      title: "Diabetes Follow-up",
+      title: "Cardiovascular Risk Assessment",
+      date: "2024-01-03",
+      summary: "Moderate risk, continuing current management plan",
+      content: "Patient showing good compliance with medication and diet recommendations. Regular exercise routine maintained."
+    },
+    {
+      
+      id: "DIAG001",
+      type: "diagnosis",
+      title: "Hypertension Follow-up",
+      date: "2024-08-20",
+      summary: "Blood pressure controlled with current medication",
+      content: "Patient showing good compliance with medication and diet recommendations. Regular exercise routine maintained."
+    },
+    {
+      id: "DIAG001",
+      type: "prescription",
+      title: "Metformin",
+      date: "2024-02-15",
+      summary: "Blood sugar levels stabilizing with current medication regime",
+      content: "Patient showing good compliance with medication and diet recommendations. Regular exercise routine maintained."
+    },
+    {
+      id: "DIAG001",
+      type: "other",
+      title: "Previous Doctor Notes",
       date: "2024-02-15",
       summary: "Blood sugar levels stabilizing with current medication regime",
       content: "Patient showing good compliance with medication and diet recommendations. Regular exercise routine maintained."

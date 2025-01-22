@@ -3,12 +3,12 @@ import { PatientProfile } from '../../types/medical';
 export const patientProfiles: Record<string, PatientProfile> = {
   "P123456": {
     id: "P123456",
-    name: "Rajesh Kumar",
+    name: "Shridevi Rathore",
     age: 45,
     dateOfBirth: "1978-05-15",
     gender: "Male",
     bloodType: "B+",
-    photoUrl: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&fit=crop",
+    photoUrl: "https://images.unsplash.com/photo-1522643527310-7222a3f57bb1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     height: "175 cm",
     weight: "78 kg",
     medications: [
@@ -52,7 +52,7 @@ export const patientProfiles: Record<string, PatientProfile> = {
     dateOfBirth: "1991-08-23",
     gender: "Female",
     bloodType: "O+",
-    photoUrl: "https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=400&h=400&fit=crop",
+    photoUrl: "https://images.unsplash.com/photo-1522643527310-7222a3f57bb1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     height: "162 cm",
     weight: "58 kg",
     medications: [

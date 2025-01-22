@@ -40,7 +40,7 @@ export function PatientProfile({ profile }: PatientProfileProps) {
           <div className="flex justify-between items-start">
             <div>
               <h1 className="text-2xl font-bold text-[#07404b]">{profile.name}</h1>
-              <p className="text-gray-600">Patient ID: {profile.id}</p>
+              <p className="text-gray-600">MR ID: {profile.id}</p>
             </div>
             <div className="flex gap-4 text-sm">
               <div className="flex items-center gap-2">
