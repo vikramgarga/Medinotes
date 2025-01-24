@@ -13,7 +13,7 @@ export function useSpeechToText() {
 
     const recognition = new (window as any).webkitSpeechRecognition();
     recognition.continuous = true;
-    recognition.interimResults = true;
+    recognition.interimResults = false;
     recognition.lang = 'en-IN';
 
     recognition.onstart = () => {
