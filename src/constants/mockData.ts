@@ -4,7 +4,7 @@ import { PatientHistory, DocumentType } from '../types/medical';
 export const mockPatientHistory: PatientHistory = {
   patient: {
     id: "P123456",
-    name: "Shridevi Rathore",
+    name: "Shridevi Ramalullu",
     age: 45,
     dateOfBirth: "1978-05-15",
     gender: "Male",

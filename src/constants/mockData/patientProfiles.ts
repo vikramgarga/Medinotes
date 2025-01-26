@@ -3,7 +3,7 @@ import { PatientProfile } from '../../types/medical';
 export const patientProfiles: Record<string, PatientProfile> = {
   "P123456": {
     id: "P123456",
-    name: "Shridevi Rathore",
+    name: "Shridevi Ramalullu",
     age: 45,
     dateOfBirth: "1978-05-15",
     gender: "Male",

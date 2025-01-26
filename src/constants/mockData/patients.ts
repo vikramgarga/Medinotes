@@ -1,7 +1,7 @@
 export const mockPatients = [  
   {
     id: "P123456",
-    name: "Shridevi Rathore",
+    name: "Shridevi Ramalullu",
     photoUrl: "https://images.unsplash.com/photo-1522643527310-7222a3f57bb1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     lastVisit: "2024-03-15",
     age: 45,
