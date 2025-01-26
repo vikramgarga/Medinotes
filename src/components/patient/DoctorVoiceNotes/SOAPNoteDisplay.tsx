@@ -50,7 +50,7 @@ export function SOAPNoteDisplay({ note }: SOAPNoteDisplayProps) {
 
       {showShareModal && (
         <SharePrescriptionModal
-          prescription={note.plan || ''}
+          prescription={note.rawTranscript || ''}
           onClose={() => setShowShareModal(false)}
         />
       )}

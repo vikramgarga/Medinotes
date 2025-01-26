@@ -85,9 +85,18 @@ export function SharePrescriptionModal({ prescription, onClose }: SharePrescript
             />
           </div>
 
-          <div className="bg-gray-50 p-4 rounded-lg">
-            <h4 className="font-medium text-[#07404b] mb-2">Prescription</h4>
-            <p className="text-gray-700 whitespace-pre-wrap">{prescription}</p>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Choose Language
+            </label>
+            <select name="language">
+              <option value="english">English</option>
+              <option value="telugu">Telugu</option>
+              <option value="telugu">Hindi</option>
+              <option value="telugu">Malayalam</option>
+              <option value="telugu">Gujarati</option>
+              <option value="telugu">Marathi</option>
+            </select>
           </div>
 
           {error && (

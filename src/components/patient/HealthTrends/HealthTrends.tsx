@@ -5,9 +5,10 @@ import { MetricChart } from './MetricChart';
 
 interface HealthTrendsProps {
   patientId: string;
+  showTips: boolean;
 }
 
-export function HealthTrends({ patientId }: HealthTrendsProps) {
+export function HealthTrends({ patientId, showTips }: HealthTrendsProps) {
   const [selectedMetric, setSelectedMetric] = useState('bloodSugar');
   const [timeRange, setTimeRange] = useState('6m'); // 6 months
 
@@ -50,11 +51,12 @@ export function HealthTrends({ patientId }: HealthTrendsProps) {
         <MetricChart data={metrics} metric={selectedMetric} />
       </div>
 
-      <div className="mt-4 p-4 bg-blue-50 rounded-lg">
+      {showTips && 
+      (<div className="mt-4 p-4 bg-blue-50 rounded-lg">
         <p className="text-sm text-blue-700">
           <strong>Tip:</strong> Regular monitoring of your health metrics helps identify trends and make informed decisions about your health. Share these trends with your healthcare provider during consultations.
         </p>
-      </div>
+      </div>)}
     </div>
   );
 }

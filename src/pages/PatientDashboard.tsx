@@ -29,7 +29,7 @@ export function PatientDashboard() {
           </div>
         </div>
 
-        <HealthTrends patientId={mockPatientHistory.patient.id} />
+        <HealthTrends patientId={mockPatientHistory.patient.id} showTips />
 
         <div className="grid md:grid-cols-2 gap-8">
           <div>

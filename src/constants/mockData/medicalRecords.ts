@@ -29,18 +29,18 @@ export const patientRecords: Record<string, MedicalDocument[]> = {
     {
       id: "LAB001",
       type: "lab",
-      title: "Lipid Panel",
+      title: "Fasting plasma glucose (FPG) test",
       date: "2024-01-02",
-      summary: "Cholesterol levels within target range, triglycerides slightly elevated",
-      content: "Lipid Panel Report Body"
+      summary: "Blood sugar level after fasting for at least 8 hours is within expected ranges",
+      content: "Fasting plasma glucose (FPG) test"
     },
     {
       id: "LAB001",
       type: "lab",
-      title: "Lipid Panel",
-      date: "2024-01-01",
-      summary: "Cholesterol levels within target range, triglycerides slightly elevated",
-      content: "Lipid Panel Report Body"
+      title: "C-peptide test",
+      date: "2025-01-26",
+      summary: "C-peptide levels in the urine sample are within normal ranges. C-peptide is a hormone produced by your pancreas that helps move blood sugar into your cells.",
+      content: ""
     },
     {
       id: "DIAG001",

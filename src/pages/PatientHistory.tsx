@@ -8,6 +8,7 @@ import { DoctorVoiceNoteEntry } from '../components/patient/DoctorVoiceNotes/Doc
 import { patientProfiles } from '../constants/mockData/patientProfiles';
 import { patientRecords } from '../constants/mockData/medicalRecords';
 import { generatePatientSummary } from '../utils/patientSummary';
+import { HealthTrends } from '../components/patient/HealthTrends';
 
 export function PatientHistory() {
   const { id } = useParams<{ id: string }>();
@@ -36,6 +37,8 @@ export function PatientHistory() {
         <PatientProfile profile={profile} />
         
         <DoctorVoiceNoteEntry />
+
+        <HealthTrends patientId={profile} />
         
         <OverallSummary summary={summary} />
 
